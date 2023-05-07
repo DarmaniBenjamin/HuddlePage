@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+body{
+    background: url(./images/bg-desktop.svg) no-repeat center center;
+    background-size: cover;
+    background-color: var(--Violet);
+}
+nav img{
+    height: 107px;
+    padding: 53px 0 0 67px;
+}
+main{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.everything{
+    display: flex;
+}
+.right{
+    color: white;
+    margin-left: 25px;
+}
+.right h1{
+    margin-top: 50px;
+    width: 380px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    cursor: pointer;
+}
+.right p{
+    font-family: 'Open Sans', sans-serif;
+    width: 460px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.btn{
+    padding: 16px 60px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    color: var(--Violet);
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn:hover{
+    background-color: var(--SoftMagenta);
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+}
